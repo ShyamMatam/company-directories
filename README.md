@@ -35,13 +35,11 @@ Development: ESLint for code quality
 Clone the repository
 
 git clone <repository-url>
-cd company-directory-list-app
+cd company-directories
 Install dependencies
 
 npm install
-Configure API endpoint Update the API endpoint in src/api.js:
 
-const API_BASE_URL = 'https://your-api-endpoint.com';
 Start development server
 
 npm run dev
