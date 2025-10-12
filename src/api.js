@@ -1,14 +1,6 @@
-import axios from "axios";
-
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
-
-const api = axios.create({
-  baseURL: API_BASE_URL,
-  timeout: 10000,
-});
+import { mockCompanies } from "./mockCompanies";
 
 export const fetchCompanies = async () => {
-  return await api.get("/companies-list");
+  // Simulate async API call
+  return { data: mockCompanies };
 };
-
-export default api;
