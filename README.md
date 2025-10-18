@@ -45,7 +45,7 @@ Start development server
 npm run dev
 Open in browser Navigate to http://localhost:5173
 
-## 📊 API Data Format
+## 📊 Static Json Data Format
 The application expects company data in the following format:
 
 {
@@ -104,7 +104,7 @@ Submit a pull request
 ✅ Filter Controls: Search, location, and industry filters
 ✅ User Experience: Loading states, error handling, smooth interactions
 ✅ State Management: Redux Toolkit for centralized state
-✅ API Integration: Axios for HTTP requests
+✅ API Integration: fetched data using Static Json
 ✅ Pagination: Full pagination with customizable items per page
 ✅ Sorting: Sort by company name with direction indicators
 ✅ UI Library: Tailwind CSS for modern styling
